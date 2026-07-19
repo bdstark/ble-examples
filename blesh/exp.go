@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/go-ble/ble"
+	"github.com/bdstark/ble"
 )
 
 func explore(cln ble.Client, p *ble.Profile) error {

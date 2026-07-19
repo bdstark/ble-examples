@@ -11,8 +11,8 @@ import (
 
 	"github.com/bdstark/ble-examples/lib"
 	"github.com/bdstark/ble-examples/lib/dev"
-	"github.com/go-ble/ble"
-	"github.com/go-ble/ble/linux"
+	"github.com/bdstark/ble"
+	"github.com/bdstark/ble/linux"
 
 	"github.com/urfave/cli"
 )

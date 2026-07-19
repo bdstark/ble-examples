@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-ble/ble"
-	"github.com/go-ble/ble/linux"
-	"github.com/go-ble/ble/linux/hci/cmd"
+	"github.com/bdstark/ble"
+	"github.com/bdstark/ble/linux"
+	"github.com/bdstark/ble/linux/hci/cmd"
 )
 
 func updateLinuxParam(d *linux.Device) error {

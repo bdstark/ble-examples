@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-ble/ble"
+	"github.com/bdstark/ble"
 )
 
 // NewEchoChar ...

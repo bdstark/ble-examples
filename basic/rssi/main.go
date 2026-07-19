@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/bdstark/ble"
 	"github.com/bdstark/ble-examples/lib/dev"
-	"github.com/go-ble/ble"
 )
 
 func main() {
@@ -34,7 +34,12 @@ func main() {
 	}
 
 	for {
-		fmt.Printf("Client side RSSI: %d\n", client.ReadRSSI(context.Background()))
+		rssi, err := client.ReadRSSI(context.Background())
+		if err != nil {
+			fmt.Printf("Client side RSSI: error: %v\n", err)
+		} else {
+			fmt.Printf("Client side RSSI: %d\n", rssi)
+		}
 		time.Sleep(time.Second)
 	}
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"errors"
-	"github.com/go-ble/ble"
+	"github.com/bdstark/ble"
 	"github.com/urfave/cli"
 )
 

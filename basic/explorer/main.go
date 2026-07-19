@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/bdstark/ble-examples/lib/dev"
-	"github.com/go-ble/ble"
+	"github.com/bdstark/ble"
 )
 
 var (
